@@ -1,0 +1,34 @@
+.card{
+    &__comment-add{
+        background:#F2F2F2;
+        padding-top: 28px;
+        padding-bottom: 34px;
+    }
+    &__comment-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__input{
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 1px;
+        min-height: 63px;
+        width: 100%;
+        max-width: 447px;
+        margin-bottom: 23px;
+        resize: none;
+    }
+    &__submit-comment{
+        background: #FDD639;
+        border-radius: 23px;
+        width: 281px;
+        height: 43px;
+        outline: 0px;
+        border:1px solid black;
+        &:active {
+            border-width: 1.5px;
+            outline: none;
+        }
+    }
+}

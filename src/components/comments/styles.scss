@@ -1,0 +1,59 @@
+.comments{
+    padding-top: 20px;
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    &__switcher{
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    &__all-comments{
+        margin-left: 5px;
+    }
+    &__commentaries{
+        margin-left: 16px;
+    }
+    &__icon{
+        margin-right: 5px;
+    }
+    &__stats{
+        font-size: 12px;
+    }
+}
+.comment{
+    padding-bottom: 20px;
+    &__text{
+        background: #F2FBFF;
+        padding: 10px 20px;
+        font-size: 14px;
+        color: #333333;
+        border: 1px solid #C4CBCF;
+    }
+    &__data{
+
+    }
+    &__author{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    &__date{
+        font-size: 11px;
+        margin-left: 5px;
+    }
+}
+
+.active-switch{
+    font-size: 14px;
+    color: #005DA1;
+    text-decoration: underline;
+}
+@media (max-width: 400px){
+    .comments{
+        &__info{
+            flex-direction: column;
+        }
+    }
+}
